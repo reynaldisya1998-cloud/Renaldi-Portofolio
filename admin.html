@@ -427,11 +427,12 @@ function GHlogin(err){
  o.innerHTML=`<div class="modal" style="width:min(460px,100%)"><h4>Login admin<span class="dot">.</span></h4>
  <p class="msg">Masukkan GitHub token kamu (fine-grained, akses <b>Contents: Read and write</b> ke repo ini). Token cuma disimpan di browser ini.</p>
  <div class="fld"><label>Repo (username/nama-repo)</label><input id="gh-r" value="${esc(GH.owner&&GH.repo?GH.owner+'/'+GH.repo:'')}" placeholder="username/username.github.io"></div>
- <div class="fld"><label>Token</label><input id="gh-t" type="password" placeholder="github_pat_…" value=""></div>
+ <div class="fld"><label>Token</label><input id="gh-t" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="github_pat_…" value="" style="font-family:ui-monospace,monospace;font-size:13px"></div>
  <div class="msg ${err?'err':''}" id="gh-m">${err?esc(err):''}</div>
  <div class="mact"><a class="btn btn-o" href="${GH.base}">Lihat web</a><button class="btn btn-a" id="gh-go">Masuk</button></div></div>`;
  document.body.style.overflow='hidden';
- $('#gh-go').onclick=async()=>{const rp=$('#gh-r').value.trim().split('/');const tk=$('#gh-t').value.trim();
+ $('#gh-go').onclick=async()=>{const rp=$('#gh-r').value.trim().split('/');const tk=$('#gh-t').value.replace(/\s+/g,'');
+  if(rp.length!==2||!tk){}else if(!/^(github_pat_|ghp_|gho_)/.test(tk)||tk.length<40){$('#gh-m').className='msg err';$('#gh-m').textContent='Itu bukan token GitHub (harus diawali github_pat_ dan panjang ±90 karakter). Copy ulang pakai tombol copy di GitHub.';return}
   if(rp.length!==2||!tk){$('#gh-m').className='msg err';$('#gh-m').textContent='Isi repo dan token dulu.';return}
   GH.owner=rp[0];GH.repo=rp[1];GH.token=tk;$('#gh-m').className='msg';$('#gh-m').textContent='Mengecek…';
   try{const r=await GHapi('');if(!r.permissions||!r.permissions.push)throw Object.assign(new Error(),{status:403});GH.branch=r.default_branch||'main';GHsaveCfg();closeOv('#ghov');S=await GHload();ORIG=JSON.stringify(S);GHenable();toast('Login berhasil')}
