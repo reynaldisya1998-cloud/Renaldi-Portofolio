@@ -1,0 +1,697 @@
+{
+ "profile": {
+  "first": "Renaldi",
+  "last": "Saputra",
+  "name": "Renaldi Saputra",
+  "title": "Graphic Designer & 3D Artist",
+  "title_en": "Graphic Designer & 3D Artist",
+  "about_en": "I am a graphic designer and 3D artist. I work on 3D product motion, blocking and previz in Blender, AI-driven commercials, and design for social media and print.",
+  "about": "Saya desainer grafis dan 3D artist. Saya mengerjakan product motion 3D, blocking dan previz di Blender, TVC berbasis AI, sampai desain untuk sosial media dan materi cetak.",
+  "photo": "profil.jpg",
+  "reel": {
+   "a": "showreel_16x9.mp4",
+   "p": "showreel_poster.jpg"
+  },
+  "wa": "6285774666341",
+  "waText": "085774666341",
+  "ig": "komengsteffi",
+  "email": "Reynaldisya1998@gmail.com",
+  "site": "https://claude.ai/artifact/AKCthSBbs6G7mJw3gCitHo"
+ },
+ "works": [
+  {
+   "id": "s01",
+   "title": "Top Banner: Nusantara Picks in Japan",
+   "title_en": "",
+   "year": "2026",
+   "cat": "Desain Grafis",
+   "sub": "Banner & Ads",
+   "brand": "Master Bagasi",
+   "desc": "Top banner aplikasi Master Bagasi untuk kurasi produk Indonesia di Jepang: gerbang torii, produk melayang, dan headline 3D yang mencolok.",
+   "desc_en": "Master Bagasi app top banner for its curated Indonesian products in Japan: a torii gate, floating products and a bold 3D headline.",
+   "media": [
+    {
+     "a": "tb_7.jpg",
+     "t": "img",
+     "w": 849,
+     "h": 1080
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": "Top Banner: Winter Survival Kit",
+   "title_en": "",
+   "year": "2026",
+   "cat": "Desain Grafis",
+   "sub": "Banner & Ads",
+   "brand": "Master Bagasi",
+   "desc": "Top banner kampanye musim dingin Master Bagasi: produk Indonesia di atas salju dengan mockup aplikasi.",
+   "desc_en": "Master Bagasi winter campaign top banner: Indonesian products on snow with an app mockup.",
+   "media": [
+    {
+     "a": "tb_8.jpg",
+     "t": "img",
+     "w": 864,
+     "h": 1080
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": "Lay's Classic: Crispy, Simple, Irresistible",
+   "title_en": "",
+   "year": "2026",
+   "cat": "Desain Grafis",
+   "sub": "Banner & Ads",
+   "brand": "Personal",
+   "desc": "Desain konsep key visual produk snack: komposisi produk, keripik melayang, dan ikon benefit. Bukan materi resmi brand.",
+   "desc_en": "Concept key visual for a snack product: product composition, floating chips and benefit icons. Not official brand material.",
+   "media": [
+    {
+     "a": "tb_9.jpg",
+     "t": "img",
+     "w": 865,
+     "h": 1080
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "title": "Wardah UV Shield: Daily Sun Protection",
+   "title_en": "",
+   "year": "2026",
+   "cat": "Desain Grafis",
+   "sub": "Banner & Ads",
+   "brand": "Personal",
+   "desc": "Desain konsep key visual skincare dengan nuansa clean dan cahaya lembut. Bukan materi resmi brand.",
+   "desc_en": "Concept skincare key visual with a clean look and soft light. Not official brand material.",
+   "media": [
+    {
+     "a": "tb_10.jpg",
+     "t": "img",
+     "w": 864,
+     "h": 1080
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "title": "GrabFood: Deal 1K",
+   "title_en": "",
+   "year": "2026",
+   "cat": "Desain Grafis",
+   "sub": "Banner & Ads",
+   "brand": "Personal",
+   "desc": "Desain konsep banner promo food delivery: pita melengkung berisi menu, talent, dan elemen promo yang dinamis. Bukan materi resmi brand.",
+   "desc_en": "Concept promo banner for food delivery: a curving ribbon of menu items, talent and dynamic promo elements. Not official brand material.",
+   "media": [
+    {
+     "a": "tb_11.jpg",
+     "t": "img",
+     "w": 864,
+     "h": 1080
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "title": "Glad2Glow: Tone Up Body Serum",
+   "title_en": "",
+   "year": "2026",
+   "cat": "Desain Grafis",
+   "sub": "Banner & Ads",
+   "brand": "Personal",
+   "desc": "Desain konsep key visual body serum: produk dengan splash, bunga, dan callout benefit. Bukan materi resmi brand.",
+   "desc_en": "Concept key visual for a body serum: product with splash, flowers and benefit callouts. Not official brand material.",
+   "media": [
+    {
+     "a": "tb_12.jpg",
+     "t": "img",
+     "w": 864,
+     "h": 1080
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "title": "Brand Guidelines: Bentala Studio",
+   "title_en": "",
+   "year": "",
+   "cat": "Desain Grafis",
+   "sub": "Brand Identity",
+   "brand": "Bentala Project",
+   "desc": "Brand guidelines Bentala Studio 2026: logo, palet warna primer dan sekunder, serta sistem tipografi yang konsisten untuk digital dan cetak.",
+   "desc_en": "Bentala Studio 2026 brand guidelines: logo, primary and secondary colour palette, and a typography system that stays consistent across digital and print.",
+   "media": [
+    {
+     "a": "fr_bentala_2.jpg",
+     "t": "img",
+     "w": 1800,
+     "h": 1013
+    },
+    {
+     "a": "fr_bentala_1.jpg",
+     "t": "img",
+     "w": 1800,
+     "h": 1013
+    },
+    {
+     "a": "fr_bentala_3.jpg",
+     "t": "img",
+     "w": 1800,
+     "h": 1013
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "title": "Logo Komeng Steffy",
+   "title_en": "",
+   "year": "",
+   "cat": "Desain Grafis",
+   "sub": "Brand Identity",
+   "brand": "Personal",
+   "desc": "Logo personal brand dengan konstruksi geometris yang tetap terbaca di ukuran kecil maupun besar.",
+   "desc_en": "Personal brand logo with a geometric construction that stays legible at small and large sizes.",
+   "media": [
+    {
+     "a": "fr_logo_1.jpg",
+     "t": "img",
+     "w": 1080,
+     "h": 1080
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "title": "Majalah Perdana Kolonian",
+   "title_en": "Kolonian Magazine, First Issue",
+   "year": "",
+   "cat": "Desain Grafis",
+   "sub": "Print",
+   "brand": "Kolonian",
+   "desc": "Layout dan visual majalah edisi perdana Kolonian: cover, halaman isi, dan tipografi editorial.",
+   "desc_en": "Layout and visuals for the first issue of Kolonian magazine: cover, inner spreads and editorial typography.",
+   "media": [
+    {
+     "a": "fr_editorial_1.jpg",
+     "t": "img",
+     "w": 1800,
+     "h": 1117
+    },
+    {
+     "a": "fr_editorial_2.jpg",
+     "t": "img",
+     "w": 1800,
+     "h": 1102
+    },
+    {
+     "a": "fr_editorial_3.jpg",
+     "t": "img",
+     "w": 1800,
+     "h": 1102
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": "Eksplorasi Konten Sosial Media",
+   "title_en": "Social Media Content Exploration",
+   "year": "",
+   "cat": "Desain Grafis",
+   "sub": "Social Media",
+   "brand": "Personal",
+   "desc": "Eksperimen konten feed: visual hook yang berani, tipografi ekspresif, dan grid yang tetap kohesif.",
+   "desc_en": "Feed content experiments: bold visual hooks, expressive typography and a grid that stays cohesive.",
+   "media": [
+    {
+     "a": "fr_sosmed_2.jpg",
+     "t": "img",
+     "w": 736,
+     "h": 1104
+    },
+    {
+     "a": "fr_sosmed_3.jpg",
+     "t": "img",
+     "w": 736,
+     "h": 1104
+    },
+    {
+     "a": "fr_sosmed_1.jpg",
+     "t": "img",
+     "w": 1012,
+     "h": 1800
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": "Special Edition: Olu Signature Coffee × Komengsteffi",
+   "title_en": "",
+   "year": "",
+   "cat": "Ilustrasi Digital",
+   "sub": "",
+   "brand": "Personal",
+   "desc": "Ilustrasi kemasan edisi spesial kolaborasi kopi: karakter, pola, dan warna yang ramai.",
+   "desc_en": "Special-edition coffee packaging illustration: characters, patterns and bold colour.",
+   "media": [
+    {
+     "a": "fr_ilustrasi_1.jpg",
+     "t": "img",
+     "w": 827,
+     "h": 833
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": "Kumpulan Ilustrasi & Sketsa",
+   "title_en": "Illustrations & Sketches",
+   "year": "",
+   "cat": "Ilustrasi Digital",
+   "sub": "",
+   "brand": "Personal",
+   "desc": "Kumpulan ilustrasi digital dan sketsa tangan: potret, karakter, dan eksplorasi gaya.",
+   "desc_en": "A collection of digital illustrations and hand sketches: portraits, characters and style exploration.",
+   "media": [
+    {
+     "a": "fr_ilustrasi_2.jpg",
+     "t": "img",
+     "w": 827,
+     "h": 1443
+    },
+    {
+     "a": "fr_ilustrasi_3.jpg",
+     "t": "img",
+     "w": 827,
+     "h": 1463
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "title": "Foyu",
+   "title_en": "",
+   "year": "2026",
+   "cat": "3D & Motion",
+   "sub": "Motion Graphic",
+   "brand": "Foyu",
+   "desc": "Product motion 3D dengan blueberry melayang dan cairan, dirender di Blender.",
+   "desc_en": "3D product motion with floating blueberries and liquid, rendered in Blender.",
+   "media": [
+    {
+     "a": "foyu.mp4",
+     "t": "video",
+     "p": "foyu_poster.jpg",
+     "w": 720,
+     "h": 1280
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "title": "Glad2Glow",
+   "title_en": "",
+   "year": "2026",
+   "cat": "3D & Motion",
+   "sub": "Motion Graphic",
+   "brand": "Personal",
+   "desc": "Product motion 3D untuk produk skincare: close-up material glossy dengan gerak kamera lambat. Proyek eksplorasi.",
+   "desc_en": "3D product motion for a skincare product: glossy material close-ups with slow camera moves. Exploration project.",
+   "media": [
+    {
+     "a": "glad_to_glow.mp4",
+     "t": "video",
+     "p": "glad_to_glow_poster.jpg",
+     "w": 720,
+     "h": 1280
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "title": "Blocking Breakdown: Keranjang Bersama",
+   "title_en": "",
+   "year": "2026",
+   "cat": "Blocking / Previz",
+   "sub": "",
+   "brand": "Master Bagasi",
+   "desc": "DVC Master Bagasi × Bentala Project. Video dibikin ulang di Blender shot-by-shot sebagai blocking, lalu dibandingkan dengan hasil final (Part 1 & 2).",
+   "desc_en": "DVC for Master Bagasi × Bentala Project. The film was rebuilt shot by shot in Blender as blocking, then compared with the final (Parts 1 & 2).",
+   "media": [
+    {
+     "a": "blocking_breakdown_keranjang_bersama_full.mp4",
+     "t": "video",
+     "p": "blocking_breakdown_keranjang_bersama_full_poster.jpg",
+     "w": 720,
+     "h": 1280
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "title": "Blocking Breakdown: Good Day × Babymonster",
+   "title_en": "",
+   "year": "2026",
+   "cat": "Blocking / Previz",
+   "sub": "",
+   "brand": "Personal",
+   "desc": "Blocking Blender dibandingkan dengan TVC aslinya, termasuk shot POV fisheye. Proyek recreate.",
+   "desc_en": "Blender blocking compared with the original TVC, including a fisheye POV shot. Recreate project.",
+   "media": [
+    {
+     "a": "blocking_breakdown_good_day_babymonster.mp4",
+     "t": "video",
+     "p": "blocking_breakdown_good_day_babymonster_poster.jpg",
+     "w": 720,
+     "h": 1280
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "title": "Blocking Breakdown: Wardah Serum",
+   "title_en": "",
+   "year": "2026",
+   "cat": "Blocking / Previz",
+   "sub": "",
+   "brand": "Personal",
+   "desc": "Blocking 3D 16 detik, 12 shot, untuk recreate TVC Wardah Radiant Resurfacing & Lift Regenerating Serum.",
+   "desc_en": "16-second, 12-shot 3D blocking for a recreate of the Wardah Radiant Resurfacing & Lift Regenerating Serum TVC.",
+   "media": [
+    {
+     "a": "Wardah16s_Blocking_Breakdown_v5_9x16_0001-0485.mp4",
+     "t": "video",
+     "p": "Wardah16s_Blocking_Breakdown_v5_9x16_0001-0485_poster.jpg",
+     "w": 720,
+     "h": 1280
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "title": "Blender Blockout vs Final: Paris",
+   "title_en": "",
+   "year": "2026",
+   "cat": "Blocking / Previz",
+   "sub": "",
+   "brand": "Personal",
+   "desc": "Blockout 3D Menara Eiffel di Blender dipakai sebagai referensi kamera dan komposisi, lalu dibandingkan dengan hasil final.",
+   "desc_en": "A 3D blockout of the Eiffel Tower in Blender, used as camera and composition reference and compared with the final result.",
+   "media": [
+    {
+     "a": "project_1.mp4",
+     "t": "video",
+     "p": "project_1_poster.jpg",
+     "w": 720,
+     "h": 1280
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "title": "TVC Paris",
+   "title_en": "",
+   "year": "2026",
+   "cat": "AI Commercial",
+   "sub": "",
+   "brand": "Personal",
+   "desc": "Iklan berbasis AI dengan setting Paris saat golden hour, dibangun dari blockout 3D.",
+   "desc_en": "AI-driven commercial set in Paris at golden hour, built from a 3D blockout.",
+   "media": [
+    {
+     "a": "TVC_Paris.mp4",
+     "t": "video",
+     "p": "TVC_Paris_poster.jpg",
+     "w": 1280,
+     "h": 720
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "title": "Recreate Iklan Wardah Serum",
+   "title_en": "Wardah Serum Commercial Recreate",
+   "year": "2026",
+   "cat": "AI Commercial",
+   "sub": "",
+   "brand": "Personal",
+   "desc": "Recreate TVC Wardah dari bedah shot, blocking 3D, sampai hasil generate AI dengan teks dan musik. Proyek eksplorasi, bukan iklan resmi.",
+   "desc_en": "A recreate of the Wardah TVC: shot breakdown, 3D blocking, then AI generation with supers and music. Exploration project, not an official ad.",
+   "media": [
+    {
+     "a": "Wardah_Recreate_Final_Teks_Musik_v2.mp4",
+     "t": "video",
+     "p": "Wardah_Recreate_Final_Teks_Musik_v2_poster.jpg",
+     "w": 1280,
+     "h": 720
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "title": "Rindu Ibu",
+   "title_en": "",
+   "year": "2026",
+   "cat": "AI Commercial",
+   "sub": "",
+   "brand": "Personal",
+   "desc": "Iklan berbasis AI: talent berlari di kebun pisang saat pagi.",
+   "desc_en": "AI-driven commercial: the talent runs through a banana field in the morning.",
+   "media": [
+    {
+     "a": "0929.mp4",
+     "t": "video",
+     "p": "0929_poster.jpg",
+     "w": 1280,
+     "h": 720
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "title": "Tango Wafer",
+   "title_en": "",
+   "year": "2026",
+   "cat": "AI Commercial",
+   "sub": "",
+   "brand": "Personal",
+   "desc": "Iklan 9:16 berbasis AI untuk wafer Tango Vanilla Delight. Proyek eksplorasi.",
+   "desc_en": "9:16 AI-driven ad for Tango Vanilla Delight wafers. Exploration project.",
+   "media": [
+    {
+     "a": "tango.mp4",
+     "t": "video",
+     "p": "tango_poster.jpg",
+     "w": 720,
+     "h": 1280
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "title": "Vlog Perjalanan Bisnis Master Bagasi",
+   "title_en": "Master Bagasi Business Trip Vlogs",
+   "year": "",
+   "cat": "Video Editing",
+   "sub": "",
+   "brand": "Master Bagasi",
+   "desc": "Videografer dan editor vlog perjalanan bisnis ke luar negeri untuk branding internasional Master Bagasi di YouTube.",
+   "desc_en": "Videographer and editor of overseas business-trip vlogs for Master Bagasi's international branding on YouTube.",
+   "media": [
+    {
+     "a": "fr_video_1.jpg",
+     "t": "img",
+     "w": 1800,
+     "h": 1117
+    },
+    {
+     "a": "fr_video_2.jpg",
+     "t": "img",
+     "w": 1800,
+     "h": 1117
+    },
+    {
+     "a": "fr_video_3.jpg",
+     "t": "img",
+     "w": 1800,
+     "h": 1117
+    }
+   ]
+  }
+ ],
+ "travelLead": "",
+ "tools": [
+  {
+   "g": "Desain Grafis",
+   "g_en": "Graphic Design",
+   "items": [
+    {
+     "n": "Adobe Photoshop",
+     "a": "tool_photoshop.png"
+    },
+    {
+     "n": "Adobe Illustrator",
+     "a": "tool_illustrator.png"
+    },
+    {
+     "n": "CorelDRAW",
+     "a": "tool_corel.png"
+    },
+    {
+     "n": "Affinity",
+     "a": "tool_affinity.png"
+    },
+    {
+     "n": "Canva",
+     "a": "tool_canva.png"
+    }
+   ]
+  },
+  {
+   "g": "3D & Motion",
+   "g_en": "3D & Motion",
+   "items": [
+    {
+     "n": "Blender",
+     "a": "tool_blender.png"
+    },
+    {
+     "n": "Adobe After Effects",
+     "a": "tool_ae.png"
+    }
+   ]
+  },
+  {
+   "g": "Video",
+   "g_en": "Video",
+   "items": [
+    {
+     "n": "Adobe Premiere Pro",
+     "a": "tool_pr.png"
+    },
+    {
+     "n": "CapCut",
+     "a": "tool_capcut3.png"
+    }
+   ]
+  },
+  {
+   "g": "Ilustrasi Digital",
+   "g_en": "Digital Illustration",
+   "items": [
+    {
+     "n": "Procreate",
+     "a": "tool_procreate.png"
+    },
+    {
+     "n": "Sketchbook",
+     "a": "tool_sketchbook.png"
+    }
+   ]
+  }
+ ],
+ "logos": [
+  {
+   "name": "Master Bagasi",
+   "a": "logo_mb.png",
+   "wide": true
+  },
+  {
+   "name": "Bebekaromi",
+   "a": "logo_bebekaromi.png"
+  },
+  {
+   "name": "Kolonian",
+   "a": "logo_kolonian2.png"
+  },
+  {
+   "name": "Cititex Kedoya",
+   "a": "logo_cititex2.png",
+   "wide": true
+  },
+  {
+   "name": "OK Print",
+   "a": "logo_okprint_w.png",
+   "wide": true
+  },
+  {
+   "name": "Galaxy Adventure",
+   "a": "logo_galaxy_w.png"
+  },
+  {
+   "name": "Bentala Project",
+   "a": "logo_bentala.png",
+   "wide": true
+  }
+ ],
+ "travel": [
+  {
+   "country": "Jepang",
+   "country_en": "Japan",
+   "city": "Tokyo · Osaka",
+   "year": "",
+   "note": "",
+   "photos": [
+    "j_01_Jepang_IMG_0059.jpg",
+    "j_01_Jepang_IMG_0160.jpg",
+    "j_01_Jepang_IMG_2636.jpg"
+   ]
+  },
+  {
+   "country": "Jerman",
+   "country_en": "Germany",
+   "city": "Düsseldorf",
+   "year": "",
+   "note": "",
+   "photos": [
+    "j_02_Jerman_IMG_5326.jpg",
+    "j_02_Jerman_IMG_8960.jpg"
+   ]
+  },
+  {
+   "country": "Belanda",
+   "country_en": "Netherlands",
+   "city": "Amsterdam · Venlo",
+   "year": "",
+   "note": "",
+   "photos": [
+    "j_03_Belanda_IMG_6278.jpg",
+    "j_03_Belanda_IMG_5616.jpg"
+   ]
+  },
+  {
+   "country": "Prancis",
+   "country_en": "France",
+   "city": "Paris",
+   "year": "",
+   "note": "",
+   "photos": [
+    "j_04_Prancis_Paris_IMG_7089.jpg",
+    "j_04_Prancis_Paris_IMG_7724_2.jpg"
+   ]
+  },
+  {
+   "country": "Qatar",
+   "country_en": "Qatar",
+   "city": "Doha",
+   "year": "",
+   "note": "",
+   "photos": [
+    "j_05_Qatar_IMG_4659.jpg"
+   ]
+  },
+  {
+   "country": "Turki",
+   "country_en": "Türkiye",
+   "city": "Istanbul",
+   "year": "",
+   "note": "",
+   "photos": [
+    "j_06_Turki_IMG_2983.jpg",
+    "j_06_Turki_IMG_2944.jpg"
+   ]
+  }
+ ]
+}
