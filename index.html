@@ -397,7 +397,7 @@ function GHinit(){
 }
 function GHsaveCfg(){try{localStorage.setItem('gh_cfg',JSON.stringify({owner:GH.owner,repo:GH.repo,branch:GH.branch,token:GH.token}))}catch(e){}}
 async function GHapi(path,opt={}){
- const r=await fetch('https://api.github.com/repos/'+GH.owner+'/'+GH.repo+path,{...opt,headers:{'Authorization':'Bearer '+GH.token,'Accept':'application/vnd.github+json',...(opt.headers||{})}});
+ const r=await fetch('https://api.github.com/repos/'+GH.owner+'/'+GH.repo+path,{cache:'no-store',...opt,headers:{'Authorization':'Bearer '+GH.token,'Accept':'application/vnd.github+json',...(opt.headers||{})}});
  if(!r.ok){const e=new Error('gh '+r.status);e.status=r.status;try{e.body=await r.json()}catch(_){}throw e}
  return r.status===204?null:r.json();
 }
@@ -662,7 +662,7 @@ async function save(){
   else if(c==='not_writer'||c==='not_granted'||c==='not_declared'){C.owner=false;dirty=false;render();toast('Tampilan ini read-only')}
   else if(c==='too_large')toast('Halaman terlalu besar untuk disimpan');
   else if(c==='rate_limited')toast('Terlalu sering, tunggu sebentar lalu coba lagi');
-  else toast('Gagal menyimpan, coba lagi')}
+  else{console.error('save',e);const m=document.createElement('div');m.className='toast';m.style.cssText='max-width:min(560px,92vw);white-space:normal';m.textContent='Gagal menyimpan: '+(e&&e.status?('GitHub '+e.status+' '+((e.body&&e.body.message)||'')):(e&&(e.message||e.name))||'error');document.body.appendChild(m);setTimeout(()=>m.remove(),12000)}}
 }
 
 /* PDF */
