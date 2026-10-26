@@ -20,6 +20,89 @@
  },
  "works": [
   {
+   "id": "wkatwarehouse",
+   "title": "Katalog Merch: Warehouse Buitenzorg",
+   "title_en": "Merch Catalog: Warehouse Buitenzorg",
+   "year": "2026",
+   "cat": "Desain Grafis",
+   "sub": "Desain Kaos",
+   "brand": "Warehouse Buitenzorg",
+   "desc": "Desain katalog pre-order kaos oversize 4 halaman 9:16 (cover, front, on body, size chart). Tema dark fantasy gothic: latar hitam bertekstur, glow bulan merah, dan tipografi blackletter mengikuti artwork prajurit undead dan anak warehouse.",
+   "desc_en": "A 4-page 9:16 pre-order catalog for an oversized tee (cover, front, on body, size chart). Dark fantasy gothic treatment: textured black, red moon glow and blackletter type to match the undead warrior artwork.",
+   "link": "",
+   "media": [
+    {
+     "a": "kat_warehouse_1.jpg",
+     "t": "img",
+     "w": 1080,
+     "h": 1920
+    },
+    {
+     "a": "kat_warehouse_2.jpg",
+     "t": "img",
+     "w": 1080,
+     "h": 1920
+    },
+    {
+     "a": "kat_warehouse_3.jpg",
+     "t": "img",
+     "w": 1080,
+     "h": 1920
+    },
+    {
+     "a": "kat_warehouse_4.jpg",
+     "t": "img",
+     "w": 1080,
+     "h": 1920
+    }
+   ]
+  },
+  {
+   "id": "wkatsouthjabo",
+   "title": "Katalog Merch: SPX South Jabo Campaign 11.11",
+   "title_en": "Merch Catalog: SPX South Jabo Campaign 11.11",
+   "year": "2026",
+   "cat": "Desain Grafis",
+   "sub": "Desain Kaos",
+   "brand": "SPX South Jabo",
+   "desc": "Desain katalog pre-order kaos 4 halaman 9:16 bertema One Piece: latar poster WANTED, aksen oranye SPX, dan kartu krem ala kertas buronan. Dilengkapi versi motion 25 detik dengan musik original dan transisi sesuai beat.",
+   "desc_en": "A 4-page 9:16 One Piece-themed pre-order tee catalog: WANTED-poster background, SPX orange accents and parchment cards. Comes with a 25-second motion version with original music and beat-synced transitions.",
+   "link": "",
+   "media": [
+    {
+     "a": "kat_southjabo_1.jpg",
+     "t": "img",
+     "w": 1080,
+     "h": 1920
+    },
+    {
+     "a": "kat_southjabo_2.jpg",
+     "t": "img",
+     "w": 1080,
+     "h": 1920
+    },
+    {
+     "a": "kat_southjabo_3.jpg",
+     "t": "img",
+     "w": 1080,
+     "h": 1920
+    },
+    {
+     "a": "kat_southjabo_4.jpg",
+     "t": "img",
+     "w": 1080,
+     "h": 1920
+    },
+    {
+     "a": "motion_southjabo.mp4",
+     "t": "video",
+     "p": "motion_southjabo_poster.jpg",
+     "w": 1080,
+     "h": 1920
+    }
+   ]
+  },
+  {
    "id": "wmvkt8zm3dsed",
    "title": "Top Banner: Kenaikan Harga Kirim ke UK, US & Kanada",
    "title_en": "",
