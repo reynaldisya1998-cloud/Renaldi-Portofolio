@@ -103,26 +103,6 @@
    ]
   },
   {
-   "id": "wmvkt8zm3dsed",
-   "title": "Top Banner: Kenaikan Harga Kirim ke UK, US & Kanada",
-   "title_en": "",
-   "year": "2026",
-   "cat": "Desain Grafis",
-   "sub": "Banner & Ads",
-   "brand": "Master Bagasi",
-   "desc": "Top banner aplikasi Master Bagasi untuk mengumumkan kenaikan harga pengiriman ke Inggris, Amerika Serikat, dan Kanada mulai 1 November. Kabar harga naik dikemas jadi visual yang ceria dan mendorong pengguna segera kirim: maskot koper MB versi musim dingin meluncur di atas pita jalan, bendera ketiga negara naik bertingkat dengan panah ke atas, dan teks 3D \"1 November\" yang searah dengan angle HP. Palet mengikuti warna maskot: oranye dengan aksen biru.",
-   "desc_en": "",
-   "link": "",
-   "media": [
-    {
-     "a": "mvkt8ryt_top-banner-1-november.jpg",
-     "t": "img",
-     "w": 1920,
-     "h": 1080
-    }
-   ]
-  },
-  {
    "id": "wmvkplit7qyuz",
    "title": "Pitch Deck: Company Profile Video Proposal",
    "title_en": "",
@@ -230,6 +210,26 @@
      "a": "mvkp8ct6_bentala-basheera-proposal-motion-20mb.mp4",
      "t": "video",
      "p": "mvkp8iid_poster.jpg",
+     "w": 1920,
+     "h": 1080
+    }
+   ]
+  },
+  {
+   "id": "wmvkt8zm3dsed",
+   "title": "Top Banner: Kenaikan Harga Kirim ke UK, US & Kanada",
+   "title_en": "",
+   "year": "2026",
+   "cat": "Desain Grafis",
+   "sub": "Banner & Ads",
+   "brand": "Master Bagasi",
+   "desc": "Top banner aplikasi Master Bagasi untuk mengumumkan kenaikan harga pengiriman ke Inggris, Amerika Serikat, dan Kanada mulai 1 November. Kabar harga naik dikemas jadi visual yang ceria dan mendorong pengguna segera kirim: maskot koper MB versi musim dingin meluncur di atas pita jalan, bendera ketiga negara naik bertingkat dengan panah ke atas, dan teks 3D \"1 November\" yang searah dengan angle HP. Palet mengikuti warna maskot: oranye dengan aksen biru.",
+   "desc_en": "",
+   "link": "",
+   "media": [
+    {
+     "a": "mvkt8ryt_top-banner-1-november.jpg",
+     "t": "img",
      "w": 1920,
      "h": 1080
     }
