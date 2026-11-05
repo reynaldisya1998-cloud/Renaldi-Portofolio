@@ -209,6 +209,10 @@ button,input,select,textarea{font:inherit;color:inherit}
 .ov{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.9);display:flex;align-items:center;justify-content:center;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
 .lb{width:min(1280px,100%);height:100%;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:28px}
 .stage{position:relative;min-height:0;display:flex;align-items:center;justify-content:center;background:#070707;border-radius:16px;overflow:hidden}
+.card .m iframe.igc{position:absolute;left:0;top:-56px;width:100%;height:calc(100% + 140px);border:0;pointer-events:none;background:#fff}
+.stage iframe.emb{border:0;display:block;background:#000}
+.stage iframe.emb.yt{width:100%;aspect-ratio:16/9;max-height:100%}
+.stage iframe.emb.ig{width:min(100%,440px);height:100%;min-height:560px;background:#fff}
 .stage img,.stage video{max-width:100%;max-height:100%;object-fit:contain;display:block}
 .nav-b{position:absolute;top:50%;transform:translateY(-50%);width:46px;height:46px;border-radius:50%;border:0;background:rgba(255,255,255,.12);color:#fff;cursor:pointer;display:grid;place-items:center}
 .nav-b:hover{background:var(--acc)}
@@ -310,7 +314,10 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const LOCAL={};
 const U=id=>id?(LOCAL[id]||(GH.base+'media/'+encodeURIComponent(id))):'';
-const cover=w=>{const m=(w.media||[])[0];if(!m)return '';return U(m.t==='video'?(m.p||m.a):m.a)};
+const ytId=u=>{const m=/(?:youtu\.be\/|youtube\.com\/(?:watch\?(?:.*&)?v=|shorts\/|embed\/|live\/))([\w-]{11})/.exec(u||'');return m?m[1]:''};
+const igId=u=>{const m=/instagram\.com\/(?:[\w.]+\/)?(?:p|reel|reels|tv)\/([\w-]+)/.exec(u||'');return m?m[1]:''};
+const embedOf=w=>{const y=ytId(w.link);if(y)return 'https://www.youtube-nocookie.com/embed/'+y+'?autoplay=1&rel=0&playsinline=1';const g=igId(w.link);if(g)return 'https://www.instagram.com/p/'+g+'/embed/';return ''};
+const cover=w=>{const m=(w.media||[])[0];if(!m){const y=ytId(w.link);return y?'https://i.ytimg.com/vi/'+y+'/hqdefault.jpg':''}return U(m.t==='video'?(m.p||m.a):m.a)};
 const isWide=w=>{const m=(w.media||[])[0];return m&&m.w&&m.h&&m.w/m.h>1.25};
 const linkHost=u=>{try{const h=new URL(u).hostname.replace(/^www\./,'');return /youtu/.test(h)?'YouTube':/instagram/.test(h)?'Instagram':/tiktok/.test(h)?'TikTok':/vimeo/.test(h)?'Vimeo':/drive\.google/.test(h)?'Google Drive':h}catch(e){return 'Link'}};
 const hasVid=w=>(w.media||[]).some(m=>m.t==='video');
@@ -470,7 +477,7 @@ function renderWorks(){
  $('#flt').innerHTML=f;
  const list=filtered();
  $('#grid').innerHTML=list.length?list.map(w=>{const m0=(w.media||[])[0]||{};const vid=m0.t==='video';const ni=(w.media||[]).length;
- return `<article class="card ${isWide(w)?'wide':''}" data-a="open" data-id="${w.id}"><div class="m">${cover(w)?`<img loading="lazy" src="${cover(w)}" alt="${esc(L(w,'title'))}">`:''}${vid?`<video muted loop playsinline preload="none" data-src="${U(m0.a)}"></video>`:''}
+ return `<article class="card ${isWide(w)?'wide':''}" data-a="open" data-id="${w.id}"><div class="m">${cover(w)?`<img loading="lazy" src="${cover(w)}" alt="${esc(L(w,'title'))}">`:''}${!(w.media||[]).length&&!ytId(w.link)&&igId(w.link)?`<iframe class="igc" src="https://www.instagram.com/p/${igId(w.link)}/embed/" loading="lazy" scrolling="no" tabindex="-1" title="Instagram"></iframe>`:''}${vid?`<video muted loop playsinline preload="none" data-src="${U(m0.a)}"></video>`:''}
  <div class="badge">${w.link?`<span>${IC.play} ${esc(linkHost(w.link))}</span>`:''}${hasVid(w)?`<span>${IC.play} ${t('video')}</span>`:''}${ni>1?`<span>${ni} ${t('visuals')}</span>`:''}</div><div class="go">${IC.ar}</div></div>
  <h3>${esc(L(w,'title'))}${w.year?' – '+esc(w.year):''}</h3><div class="meta">${esc([w.sub?subName(w.cat,w.sub):catName(w.cat),w.brand&&w.brand!=='Personal'?w.brand:''].filter(Boolean).join(' · '))}</div>
  ${C.owner?`<div class="own"><button class="btn btn-o btn-s" data-a="edit" data-id="${w.id}">${t('edit')}</button><button class="btn btn-o btn-s" data-a="up" data-id="${w.id}" aria-label="${t('up')}">↑</button><button class="btn btn-o btn-s" data-a="down" data-id="${w.id}" aria-label="${t('down')}">↓</button><button class="btn btn-o btn-s" data-a="del" data-id="${w.id}">${t('del')}</button></div>`:''}</article>`}).join(''):`<div class="empty">${t('empty')}</div>`;
@@ -533,7 +540,8 @@ function openLB(id){const w=S.works.find(x=>x.id===id);if(!w)return;LB={w,i:0};d
 function drawLB(){
  let o=$('#lbov');if(!o){o=document.createElement('div');o.id='lbov';o.className='ov';document.body.appendChild(o);document.body.style.overflow='hidden'}
  const {w,i}=LB, M=w.media||[], m=M[i]||{}, trav=w.cat==='__travel';
- const st=m.t==='video'?`<video src="${U(m.a)}" poster="${U(m.p)}" controls autoplay playsinline></video>`:`<img src="${U(m.a)}" alt="">`;
+ const em=!M.length?embedOf(w):'';
+ const st=em?`<iframe class="emb ${ytId(w.link)?'yt':'ig'}" src="${em}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen title="${esc(linkHost(w.link))}"></iframe>`:m.t==='video'?`<video src="${U(m.a)}" poster="${U(m.p)}" controls autoplay playsinline></video>`:`<img src="${U(m.a)}" alt="">`;
  const head=trav?'':esc([catName(w.cat),w.sub?subName(w.cat,w.sub):''].filter(Boolean).join(' / '));
  o.innerHTML=`<button class="x" data-a="lbx" aria-label="${t('close')}">×</button><div class="lb"><div class="stage">${st}${M.length>1?`<button class="nav-b p" data-a="lbp">${IC.l}</button><button class="nav-b n" data-a="lbn">${IC.r}</button><span class="cnt">${i+1} / ${M.length}</span>`:''}</div>
  <div class="info">${head?`<span class="lab" style="color:var(--acc)">${head}</span>`:''}<h3>${esc(trav?w.title:L(w,'title'))}</h3><span class="lab">${esc((trav?[w.city,w.year]:[w.brand&&w.brand!=='Personal'?w.brand:'',w.year]).filter(Boolean).join(' · '))}</span>${!trav&&L(w,'desc')?`<p>${esc(L(w,'desc'))}</p>`:''}
@@ -595,7 +603,7 @@ async function addFiles(files){
 }
 function applyEditor(){
  if(!ED.title.trim()){ED.msg='Judul wajib diisi.';ED.err=1;drawEditor();return}
- if(!ED.media.length){ED.msg='Tambahkan minimal 1 gambar (untuk link, pakai screenshot/thumbnail videonya).';ED.err=1;drawEditor();return}
+ if(!ED.media.length&&!ytId(ED.link)&&!igId(ED.link)){ED.msg='Tambahkan minimal 1 gambar, atau isi link YouTube / Instagram.';ED.err=1;drawEditor();return}
  const w={id:ED.id||newId(),title:ED.title.trim(),title_en:ED.title_en.trim(),year:ED.year.trim(),cat:ED.cat,sub:ED.sub.trim(),brand:ED.brand.trim(),desc:ED.desc.trim(),desc_en:ED.desc_en.trim(),link:/^https?:\/\//.test(ED.link.trim())?ED.link.trim():'',media:ED.media};
  const i=S.works.findIndex(x=>x.id===w.id);
  if(i>=0)S.works[i]=w;else S.works.unshift(w);
