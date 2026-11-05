@@ -20,27 +20,6 @@
  },
  "works": [
   {
-   "id": "wmw35yppb3256",
-   "title": "Motion Logo: Pranala",
-   "title_en": "",
-   "year": "2026",
-   "cat": "3D & Motion",
-   "sub": "Motion Graphic",
-   "brand": "Pranala",
-   "desc": "Motion logo intro 9 detik untuk Pranala 2026 (proyek freelance). Kelopak logo mekar satu per satu dengan gaya bloom yang elegan, disusul teks dan badge 2026, lengkap dengan SFX. Dikerjakan di After Effects dengan shape layer dan rig yang rapi.",
-   "desc_en": "",
-   "link": "",
-   "media": [
-    {
-     "a": "mw35yg01_pranala2026-motion-logo.mp4",
-     "t": "video",
-     "p": "mw35yji9_poster.jpg",
-     "w": 1920,
-     "h": 1080
-    }
-   ]
-  },
-  {
    "id": "wkatwarehouse",
    "title": "Katalog Merch: Warehouse Buitenzorg",
    "title_en": "Merch Catalog: Warehouse Buitenzorg",
@@ -158,6 +137,27 @@
      "t": "img",
      "w": 1080,
      "h": 1920
+    }
+   ]
+  },
+  {
+   "id": "wmw35yppb3256",
+   "title": "Motion Logo: Pranala",
+   "title_en": "",
+   "year": "2026",
+   "cat": "3D & Motion",
+   "sub": "Motion Graphic",
+   "brand": "Pranala",
+   "desc": "Motion logo intro 9 detik untuk Pranala 2026 (proyek freelance). Kelopak logo mekar satu per satu dengan gaya bloom yang elegan, disusul teks dan badge 2026, lengkap dengan SFX. Dikerjakan di After Effects dengan shape layer dan rig yang rapi.",
+   "desc_en": "",
+   "link": "",
+   "media": [
+    {
+     "a": "mw35yg01_pranala2026-motion-logo.mp4",
+     "t": "video",
+     "p": "mw35yji9_poster.jpg",
+     "w": 1920,
+     "h": 1080
     }
    ]
   },
