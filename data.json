@@ -20,38 +20,6 @@
  },
  "works": [
   {
-   "id": "wmwenu3ppl0n5",
-   "title": "Barang Pulang: Kirim Barang Pindahan dari Eropa ke Indonesia",
-   "title_en": "",
-   "year": "2026",
-   "cat": "Desain Grafis",
-   "sub": "Banner & Ads",
-   "brand": "Barang Pulang",
-   "desc": "Key visual promosi untuk Barang Pulang, jasa pengiriman barang dari Eropa ke Indonesia dengan gudang di Düsseldorf, Jerman. Kampanye ini menyasar diaspora Indonesia yang akan pulang kampung, dengan pesan utama bebas bea & PPN untuk barang pindahan.\n\nDesainnya mengangkat gaya iklan super-app Indonesia. Headline 3D lime yang tebal di atas visual langit Eropa langsung menarik perhatian. Di bawahnya, kartu informasi bertingkat merangkum tiga pilihan layanan beserta estimasinya (Sea Freight 45–60 hari, Air Freight 7–14 hari, Bagasian 2–4 hari), keunggulan layanan, bukti kepercayaan berupa 1.400+ kiriman sejak 2018, dan CTA QR untuk cek tarif. Palet hijau tua dan lime diambil langsung dari identitas brand Barang Pulang.\n\nSatu key visual diadaptasi menjadi tiga format: feed 4:5, story 9:16, dan landscape 16:9. Pada format landscape, susunannya diubah jadi dua kolom (visual + headline di kiri, informasi di kanan) supaya tetap terbaca di layar lebar.",
-   "desc_en": "",
-   "link": "",
-   "media": [
-    {
-     "a": "mwentqpp_ratio-feeds.jpg",
-     "t": "img",
-     "w": 1080,
-     "h": 1350
-    },
-    {
-     "a": "mwenttmi_ratio-story.jpg",
-     "t": "img",
-     "w": 1080,
-     "h": 1920
-    },
-    {
-     "a": "mwentw83_ratio-yt.jpg",
-     "t": "img",
-     "w": 1920,
-     "h": 1080
-    }
-   ]
-  },
-  {
    "id": "wmwbh3qrpx8s0",
    "title": "STAR — Chrome Poster Exploration",
    "title_en": "",
@@ -361,6 +329,38 @@
    "media": [
     {
      "a": "mvkt8ryt_top-banner-1-november.jpg",
+     "t": "img",
+     "w": 1920,
+     "h": 1080
+    }
+   ]
+  },
+  {
+   "id": "wmwenu3ppl0n5",
+   "title": "Barang Pulang: Kirim Barang Pindahan dari Eropa ke Indonesia",
+   "title_en": "",
+   "year": "2026",
+   "cat": "Desain Grafis",
+   "sub": "Banner & Ads",
+   "brand": "Barang Pulang",
+   "desc": "Key visual promosi untuk Barang Pulang, jasa pengiriman barang dari Eropa ke Indonesia dengan gudang di Düsseldorf, Jerman. Kampanye ini menyasar diaspora Indonesia yang akan pulang kampung, dengan pesan utama bebas bea & PPN untuk barang pindahan.\n\nDesainnya mengangkat gaya iklan super-app Indonesia. Headline 3D lime yang tebal di atas visual langit Eropa langsung menarik perhatian. Di bawahnya, kartu informasi bertingkat merangkum tiga pilihan layanan beserta estimasinya (Sea Freight 45–60 hari, Air Freight 7–14 hari, Bagasian 2–4 hari), keunggulan layanan, bukti kepercayaan berupa 1.400+ kiriman sejak 2018, dan CTA QR untuk cek tarif. Palet hijau tua dan lime diambil langsung dari identitas brand Barang Pulang.\n\nSatu key visual diadaptasi menjadi tiga format: feed 4:5, story 9:16, dan landscape 16:9. Pada format landscape, susunannya diubah jadi dua kolom (visual + headline di kiri, informasi di kanan) supaya tetap terbaca di layar lebar.",
+   "desc_en": "",
+   "link": "",
+   "media": [
+    {
+     "a": "mwentqpp_ratio-feeds.jpg",
+     "t": "img",
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "a": "mwenttmi_ratio-story.jpg",
+     "t": "img",
+     "w": 1080,
+     "h": 1920
+    },
+    {
+     "a": "mwentw83_ratio-yt.jpg",
      "t": "img",
      "w": 1920,
      "h": 1080
