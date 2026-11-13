@@ -368,25 +368,6 @@
    ]
   },
   {
-   "id": "s01",
-   "title": "Top Banner: Nusantara Picks in Japan",
-   "title_en": "",
-   "year": "2026",
-   "cat": "Desain Grafis",
-   "sub": "Banner & Ads",
-   "brand": "Master Bagasi",
-   "desc": "Top banner aplikasi Master Bagasi untuk kurasi produk Indonesia di Jepang: gerbang torii, produk melayang, dan headline 3D yang mencolok.",
-   "desc_en": "Master Bagasi app top banner for its curated Indonesian products in Japan: a torii gate, floating products and a bold 3D headline.",
-   "media": [
-    {
-     "a": "tb_7.jpg",
-     "t": "img",
-     "w": 849,
-     "h": 1080
-    }
-   ]
-  },
-  {
    "id": "s02",
    "title": "Top Banner: Winter Survival Kit",
    "title_en": "",
@@ -401,6 +382,25 @@
      "a": "tb_8.jpg",
      "t": "img",
      "w": 864,
+     "h": 1080
+    }
+   ]
+  },
+  {
+   "id": "s01",
+   "title": "Top Banner: Nusantara Picks in Japan",
+   "title_en": "",
+   "year": "2026",
+   "cat": "Desain Grafis",
+   "sub": "Banner & Ads",
+   "brand": "Master Bagasi",
+   "desc": "Top banner aplikasi Master Bagasi untuk kurasi produk Indonesia di Jepang: gerbang torii, produk melayang, dan headline 3D yang mencolok.",
+   "desc_en": "Master Bagasi app top banner for its curated Indonesian products in Japan: a torii gate, floating products and a bold 3D headline.",
+   "media": [
+    {
+     "a": "tb_7.jpg",
+     "t": "img",
+     "w": 849,
      "h": 1080
     }
    ]
